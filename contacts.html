@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]>
+<html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8"/>
+    <title>Улан-Удэнское СУВУ</title>
+    <meta name="description" content=""/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?v=3&sensor=false&language=en"></script>
+    <!--<link rel="shortcut icon" href="favicon.png" />-->
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css"/>
+    <link rel="stylesheet" href="libs/countdown/jquery.countdown.css"/>
+    <link rel="stylesheet" href="libs/owl-carousel2/assets/owl.carousel.css"/>
+    <link rel="stylesheet" href="libs/owl-carousel2/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <script type="text/javascript">
+        var map;
+        function initMap() {
+            var myLatlng = {lat: 51.867, lng: 107.744};
+
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 20,
+                center: myLatlng,
+                mapTypeId: google.maps.MapTypeId.SATELLITE
+            });
+
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                title: 'Боргойская, 4'
+            });
+
+            map.addListener('center_changed', function() {
+                // 3 seconds after the center of the map has changed, pan back to the
+                // marker.
+                window.setTimeout(function() {
+                    map.panTo(marker.getPosition());
+                }, 3000);
+            });
+
+            marker.addListener('click', function() {
+                map.setZoom(16);
+                //GotoLatLng()
+                map.setCenter(marker.getPosition());
+            });
+        }
+
+
+        function GotoLatLng(Lat, Lang) {
+            var latlng = new google.maps.LatLng(Lat,Lang);
+            map.setCenter(latlng);
+        }
+
+    </script>
+</head>
+<body style="background-color: antiquewhite" onload="initMap()">
+
+<header>
+    <div class="header_topline">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-3">
+                    <div class="logotype"><img src="img/logo.png"></div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
+                    <div class="alltitle">
+                        <p class="mintitle">Федеральное государственное бюджетное профессиональное образовательное
+                            учреждение</p>
+                        <p class="maxtitle">Улан-Удэнское специальное учебно-воспитательное учреждение<br>для
+                            обучающихся с девиантным (общественно опасным) поведением<br>закрытого типа</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="header-menu-bar">
+        <div class="container">
+
+            <nav class="clearfix" role="navigation">
+                <button class="main-menu-button hidden-xl-up"><i class="fa fa-bars"></i></button>
+                <div class="main-menu">
+                    <ul>
+                        <li class="active main-menu-item"><a href="index.html">Главная</a></li>
+                        <li class="main-menu-item"><a href="inforg.html">Сведения об образовательной организации</a>
+                        </li>
+                        <!---------------------------------------------------------->
+                        <li class="main-menu-item"><a href="events.html">События</a></li>
+                        <li class="main-menu-item"><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+
+                <div class="top-contacts"><i class="fa fa-phone"></i> 8(3012)290580</div>
+
+
+            </nav>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container" style="margin-top: 2em">
+        <div class="card">
+            <h3 class="card-header">
+                Наш адрес
+            </h3>
+            <div class="card-block">
+                <blockquote class="card-blockquote">
+                    <p><strong>Улан-Удэнское СУВУ.</strong></p>
+                    <p>ул. Боргойская, 4</p>
+                    <p>670019, г. Улан-Удэ</p>
+                    <p><span class="fa fa-phone"></span> 83012290580</p>
+                    <p><i class="fa fa-envelope-o"></i> specuu@yandex.ru</p>
+                </blockquote>
+            </div>
+        </div>
+        <div class="card">
+            <h3 class="card-header">
+                На карте
+            </h3>
+            <div class="card-block">
+                <blockquote class="card-blockquote">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=lyhhFCTTGj_rSvn_PfRGgLgetUNG6UFN&amp;width=100%25&amp;height=580&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+
+<!--[if lt IE 9]>
+<script src="libs/html5shiv/es5-shim.min.js"></script>
+<script src="libs/html5shiv/html5shiv.min.js"></script>
+<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-3.1.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/bootstrap/bootstrap.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+<script src="libs/countdown/jquery.plugin.js"></script>
+<script src="libs/countdown/jquery.countdown.min.js"></script>
+<script src="libs/countdown/jquery.countdown-ru.js"></script>
+<script src="libs/landing-nav/navigation.js"></script>
+<script src="libs/owl-carousel2/owl.carousel.min.js"></script>
+
+<script src="js/common.js"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

@@ -1,0 +1,192 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 1rem;
+	margin: 0px;
+}
+
+html{
+	font-size: 16px;
+}
+.header_topline{
+	background-color: #eeeeee;
+	padding: 1em 0px;
+}
+.header-menu-bar{
+	padding: 0px;
+	margin: 0px;
+	background-color: #3797bc;
+	width: 100%;
+	height: 3em;
+}
+
+.logotype{
+	display:block;
+	text-align: center;
+}
+.alltitle{
+	text-align: center;
+}
+.mintitle{
+	color: #444444;
+	font-size: 1em;
+	padding-top: 1em;
+}
+.maxtitle{
+	font-family: "ArsenalRegular";
+	font-size: 1.5em;
+	color: #337ab7;
+}
+
+.main-menu{
+	background-color: #3797bc;
+	color: white;
+	padding: 0px;
+
+	z-index: 10;
+}
+.top-contacts{
+	float:right;
+	font-size: 1em;
+	padding-top: 0.7em;
+	color: #cacaca;
+
+}
+.main-menu a{
+	color: white;
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: left;
+	padding: 0.7em 0.5em 0.7em 0.5em;
+	margin-right: 0.5em;
+	-webkit-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	-transition: all 0.25s;
+}
+
+.main-menu a:hover{
+	background: rgba(201,239,247,0.53);
+	color: #466CE7;
+	text-decoration: none;
+}
+
+.main-menu ul{
+	margin: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+	float: left;
+}
+.main-menu-item{
+	display: inline-block;
+}
+
+.main-menu-subitem{
+	display: block;
+}
+
+.main-menu-button{
+	float: left;
+	background-color: transparent;
+	border: medium none;
+	font-size: 1.5em;
+	color: white;
+	padding: 0.2em 0.5em 0.2em 0px;
+}
+
+.home-button{
+	float: left;
+	background-color: transparent;
+	border: medium none;
+	font-size: 1.5em;
+	color: white;
+	padding: 0.2em 0.5em 0.2em 0.5em;
+}
+.main-article{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.slider-container {
+	 max-width: 640px;
+}
+.hello{
+	font-family:"NautilusPompiliusRegular",sans-serif;
+	font-size: 3em;
+	color: #244cff;
+}
+.main-panel{
+	background-color: #fffde1;
+	padding: 2em 2em 2em 2em;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 4px;
+	border-color: #888888;
+	background-image: url(../img/wp1.png); /* Путь к фоновому рисунку */
+	background-position: left bottom; /* Положение фона */
+	background-repeat: repeat-x; /* Повторяем фон по горизонтали */
+}
+.onenews{
+	border-top: thin #aeaeae solid;
+	border-left: thin #cacaca solid;
+	border-right: thin #cacaca solid;
+	border-bottom: none;
+	margin-top: 1em;
+	border-radius: 4px 4px 0px 0px;
+}
+.newscard{
+	padding: 1em;
+}
+.dateinfo{
+	font-size: small;
+	font-style: italic;
+	color: #aaaaaa;
+	text-align: right;
+}
+.titleinfo{
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+}
+.onearticle{
+	margin-top: 1em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	padding: 1.5em;
+	border: #aed2d1 solid thin;
+}
+
+.overcaption{
+	background-color: rgba(173,173,173,0.5);
+	text-align: center;
+	width: 100%;
+	font-size: 1.5em;
+}
+.owl-carousel img{
+	height: 300px;
+}
+
+
+

@@ -1,0 +1,92 @@
+/* font-family: "RobotoRegular"; */
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+	url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoLight"; */
+@font-face {
+	font-family: "RobotoLight";
+	src: url("../fonts/RobotoLight/RobotoLight.eot");
+	src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoLight/RobotoLight.woff") format("woff"),
+	url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoMedium"; */
+@font-face {
+	font-family: "RobotoMedium";
+	src: url("../fonts/RobotoMedium/RobotoMedium.eot");
+	src: url("../fonts/RobotoMedium/RobotoMedium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoMedium/RobotoMedium.woff") format("woff"),
+	url("../fonts/RobotoMedium/RobotoMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoBold"; */
+@font-face {
+	font-family: "RobotoBold";
+	src: url("../fonts/RobotoBold/RobotoBold.eot");
+	src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoBold/RobotoBold.woff") format("woff"),
+	url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "ArsenalRegular"; */
+@font-face {
+	font-family: "ArsenalRegular";
+	src: url("../fonts/ArsenalRegular/ArsenalRegular.eot");
+	src: url("../fonts/ArsenalRegular/ArsenalRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ArsenalRegular/ArsenalRegular.woff") format("woff"),
+	url("../fonts/ArsenalRegular/ArsenalRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "ArsenalItalic"; */
+@font-face {
+	font-family: "ArsenalItalic";
+	src: url("../fonts/ArsenalItalic/ArsenalItalic.eot");
+	src: url("../fonts/ArsenalItalic/ArsenalItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ArsenalItalic/ArsenalItalic.woff") format("woff"),
+	url("../fonts/ArsenalItalic/ArsenalItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "ArsenalBold"; */
+@font-face {
+	font-family: "ArsenalBold";
+	src: url("../fonts/ArsenalBold/ArsenalBold.eot");
+	src: url("../fonts/ArsenalBold/ArsenalBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ArsenalBold/ArsenalBold.woff") format("woff"),
+	url("../fonts/ArsenalBold/ArsenalBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "ArsenalBoldItalic"; */
+@font-face {
+	font-family: "ArsenalBoldItalic";
+	src: url("../fonts/ArsenalBoldItalic/ArsenalBoldItalic.eot");
+	src: url("../fonts/ArsenalBoldItalic/ArsenalBoldItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ArsenalBoldItalic/ArsenalBoldItalic.woff") format("woff"),
+	url("../fonts/ArsenalBoldItalic/ArsenalBoldItalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "NautilusPompiliusRegular"; */
+@font-face {
+    font-family: "NautilusPompiliusRegular";
+    src: url("../fonts/NautilusPompiliusRegular/NautilusPompiliusRegular.eot");
+    src: url("../fonts/NautilusPompiliusRegular/NautilusPompiliusRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/NautilusPompiliusRegular/NautilusPompiliusRegular.woff") format("woff"),
+    url("../fonts/NautilusPompiliusRegular/NautilusPompiliusRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
