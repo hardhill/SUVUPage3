@@ -1,69 +1,11 @@
 $(document).ready(function() {
 
-	$(".main-menu-button").click(function () {
-		$(".main-menu").slideToggle();
-    });
-$(".flex-column").children(".articles").hide();
-$(".flex-column").children("#inf1").show();
-
-
-    $( "#razdels" ).change(function() {
-        $(".flex-column").children(".articles").hide();
-        var singleValues = "#"+$("#razdels").val();
-        $(singleValues).show();
-    });
-
-
-
-
-
-
-	//Таймер обратного отсчета
-	//Документация: http://keith-wood.name/countdown.html
-	//<div class="countdown" date-time="2015-01-07"></div>
-	var austDay = new Date($(".countdown").attr("date-time"));
-	$(".countdown").countdown({until: austDay, format: 'yowdHMS'});
-
-	//Попап менеджер FancyBox
-	//Документация: http://fancybox.net/howto
-	//<a class="fancybox"><img src="image.jpg" /></a>
-	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
-	$(".fancybox").fancybox();
-
-	//Навигация по Landing Page
-	//$(".top_mnu") - это верхняя панель со ссылками.
-	//Ссылки вида <a href="#contacts">Контакты</a>
-	$(".top_mnu").navigation();
-
-	//Добавляет классы дочерним блокам .block для анимации
-	//Документация: http://imakewebthings.com/jquery-waypoints/
-	$(".block").waypoint(function(direction) {
-		if (direction === "down") {
-			$(".class").addClass("active");
-		} else if (direction === "up") {
-			$(".class").removeClass("deactive");
-        }
-    }, {offset: 100});
-
-	//Плавный скролл до блока .div по клику на .scroll
-	//Документация: https://github.com/flesler/jquery.scrollTo
-	$("a.scroll").click(function() {
-		$.scrollTo($(".div"), 800, {
-			offset: -90
-		});
-	});
 
 	//Каруселька
 	//Документация: http://owlgraphic.com/owlcarousel/
-	/*var owl = $(".carousel");
-	owl.owlCarousel({
-		items : 1,
-		autoHeight:true
-	});*/
+	var owl = $(".owl-carousel");
 
-
-    $(document).ready(function() {
-        $('.owl-carousel').owlCarousel({
+        owl.owlCarousel({
             loop:true, //Зацикливаем слайдер
             margin:10, //Отступ от картино если выводите больше 1
             nav:false, //Отключил навигацию
@@ -72,7 +14,7 @@ $(".flex-column").children("#inf1").show();
             autoplayTimeout:5000, //Время смены слайда
 			autoWidth:true,
 			autoHeight:false,
-			merge:true,
+			//merge:true,
 			responsive:{ //Адаптация в зависимости от разрешения экрана
                 0:{
                     items:1
@@ -86,7 +28,7 @@ $(".flex-column").children("#inf1").show();
             }
 
         });
-    });
+
 
 
 
@@ -131,5 +73,8 @@ $(".flex-column").children("#inf1").show();
 		});
 		return false;
 	});
+
+
+    $(document).refresh();
 
 });
