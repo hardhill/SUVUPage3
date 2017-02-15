@@ -1,10 +1,7 @@
 $(document).ready(function() {
-
-
-
-
-
-
+    $(".main-menu-button").click(function () {
+        $(".main-menu").slideToggle();
+    });
 
 
 	//Таймер обратного отсчета

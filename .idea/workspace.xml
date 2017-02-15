@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="706ee8a1-adba-43f1-a702-0b2585e11d5b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG20.jpg" afterPath="$PROJECT_DIR$/img/IMG20.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG21.jpg" afterPath="$PROJECT_DIR$/img/IMG21.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG22.jpg" afterPath="$PROJECT_DIR$/img/IMG22.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG23.jpg" afterPath="$PROJECT_DIR$/img/IMG23.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG24.jpg" afterPath="$PROJECT_DIR$/img/IMG24.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG25.jpg" afterPath="$PROJECT_DIR$/img/IMG25.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG26.jpg" afterPath="$PROJECT_DIR$/img/IMG26.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG27.jpg" afterPath="$PROJECT_DIR$/img/IMG27.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG28.jpg" afterPath="$PROJECT_DIR$/img/IMG28.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG29.jpg" afterPath="$PROJECT_DIR$/img/IMG29.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG30.jpg" afterPath="$PROJECT_DIR$/img/IMG30.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG31.jpg" afterPath="$PROJECT_DIR$/img/IMG31.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG32.jpg" afterPath="$PROJECT_DIR$/img/IMG32.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG33.jpg" afterPath="$PROJECT_DIR$/img/IMG33.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG34.jpg" afterPath="$PROJECT_DIR$/img/IMG34.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG35.jpg" afterPath="$PROJECT_DIR$/img/IMG35.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG36.jpg" afterPath="$PROJECT_DIR$/img/IMG36.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG37.jpg" afterPath="$PROJECT_DIR$/img/IMG37.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG38.jpg" afterPath="$PROJECT_DIR$/img/IMG38.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG39.jpg" afterPath="$PROJECT_DIR$/img/IMG39.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG40.jpg" afterPath="$PROJECT_DIR$/img/IMG40.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG41.jpg" afterPath="$PROJECT_DIR$/img/IMG41.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG42.jpg" afterPath="$PROJECT_DIR$/img/IMG42.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG43.jpg" afterPath="$PROJECT_DIR$/img/IMG43.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG44.jpg" afterPath="$PROJECT_DIR$/img/IMG44.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG45.jpg" afterPath="$PROJECT_DIR$/img/IMG45.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG46.jpg" afterPath="$PROJECT_DIR$/img/IMG46.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG47.jpg" afterPath="$PROJECT_DIR$/img/IMG47.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG48.jpg" afterPath="$PROJECT_DIR$/img/IMG48.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG49.jpg" afterPath="$PROJECT_DIR$/img/IMG49.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG50.jpg" afterPath="$PROJECT_DIR$/img/IMG50.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG51.jpg" afterPath="$PROJECT_DIR$/img/IMG51.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG52.jpg" afterPath="$PROJECT_DIR$/img/IMG52.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG53.jpg" afterPath="$PROJECT_DIR$/img/IMG53.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG54.jpg" afterPath="$PROJECT_DIR$/img/IMG54.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG55.jpg" afterPath="$PROJECT_DIR$/img/IMG55.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG56.jpg" afterPath="$PROJECT_DIR$/img/IMG56.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG57.jpg" afterPath="$PROJECT_DIR$/img/IMG57.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG58.jpg" afterPath="$PROJECT_DIR$/img/IMG58.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/IMG59.jpg" afterPath="$PROJECT_DIR$/img/IMG59.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/reader.js" afterPath="$PROJECT_DIR$/js/reader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,10 +23,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.6733795">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="reader.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="reader.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/reader.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1394">
+                <state relative-caret-position="127">
                   <caret line="179" column="46" lean-forward="false" selection-start-line="179" selection-start-column="46" selection-end-line="179" selection-end-column="46" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#main#0;n#html#0;n#!!top" expanded="false" />
@@ -105,7 +63,7 @@
           <file leaf-file-name="inforg.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/inforg.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="552">
+                <state relative-caret-position="7174">
                   <caret line="1030" column="12" lean-forward="false" selection-start-line="1030" selection-start-column="12" selection-end-line="1030" selection-end-column="12" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#main#0;n#html#0;n#!!top" expanded="false" />
@@ -133,8 +91,8 @@
           <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/common.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1037">
-                  <caret line="61" column="71" lean-forward="false" selection-start-line="61" selection-start-column="71" selection-end-line="61" selection-end-column="71" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -143,8 +101,8 @@
           <file leaf-file-name="inforg.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/inforg.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="7" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -152,10 +110,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1700">
+                <state relative-caret-position="55">
                   <caret line="100" column="39" lean-forward="false" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
                   <folding />
                 </state>
@@ -170,7 +128,7 @@
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="708">
-                  <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+                  <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -240,13 +198,13 @@
         <option value="$PROJECT_DIR$/css/infomenu.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/inform.js" />
-        <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/js/inforg.js" />
         <option value="$PROJECT_DIR$/events.html" />
         <option value="$PROJECT_DIR$/inforg.html" />
         <option value="$PROJECT_DIR$/reader.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/js/reader.js" />
+        <option value="$PROJECT_DIR$/js/common.js" />
       </list>
     </option>
   </component>
@@ -454,11 +412,12 @@
       <workItem from="1486470199992" duration="1450000" />
       <workItem from="1486487296117" duration="23000" />
       <workItem from="1486551885514" duration="4493000" />
+      <workItem from="1487155053358" duration="370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211399000" />
+    <option name="totallyTimeSpent" value="211769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -679,13 +638,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/bootstrap/bootstrap-grid.min.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
@@ -789,36 +748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="100" column="39" lean-forward="false" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/inforg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="71" lean-forward="false" selection-start-line="61" selection-start-column="71" selection-end-line="61" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -832,7 +765,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inforg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
+        <state relative-caret-position="7174">
           <caret line="1030" column="12" lean-forward="false" selection-start-line="1030" selection-start-column="12" selection-end-line="1030" selection-end-column="12" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#main#0;n#html#0;n#!!top" expanded="false" />
@@ -864,7 +797,7 @@
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="708">
-          <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+          <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -879,7 +812,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reader.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
+        <state relative-caret-position="127">
           <caret line="179" column="46" lean-forward="false" selection-start-line="179" selection-start-column="46" selection-end-line="179" selection-end-column="46" />
           <folding>
             <element signature="n#div#0;n#div#0;n#main#0;n#html#0;n#!!top" expanded="false" />
@@ -889,6 +822,32 @@
             <element signature="n#div#4;n#div#0;n#main#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#0;n#main#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/inforg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="100" column="39" lean-forward="false" selection-start-line="100" selection-start-column="39" selection-end-line="100" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
